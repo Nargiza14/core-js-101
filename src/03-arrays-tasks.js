@@ -417,7 +417,9 @@ function toStringList(arr) {
  *      { country: 'Russia',  city: 'Saint Petersburg' }
  *    ]
  */
-function sortCitiesArray(arr) {}
+function sortCitiesArray(arr) {
+  arr.sort();
+}
 
 /**
  * Creates an identity matrix of the specified size
