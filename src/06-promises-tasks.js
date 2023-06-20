@@ -99,7 +99,7 @@ function chainPromises(array, action) {
     try {
       return action(await Promise1, await Promise2);
     } catch (error) {
-      return error.message;
+      return error;
     }
   });
 }
